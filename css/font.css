@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(../font/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Kanit-Regular';
+    src: url(../font/Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Kanit-Bold';
+    src: url(../font/Kanit-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'LexendPeta-Regular';
+    src: url(../font/LexendPeta-Regular.ttf);
+}
