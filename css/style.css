@@ -320,7 +320,7 @@ body {
     line-height: 23px;
 }
 
-.about__title-txt a{
+.about__title-txt a, .footer__menu a{
 color: #00C4F0;
 }
 
