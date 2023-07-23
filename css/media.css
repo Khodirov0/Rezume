@@ -15,9 +15,6 @@
         left: 120px;
     }
 
-    .about::after {
-        display: none;
-    }
 
  
     .about__img-bg {
@@ -27,6 +24,11 @@
     .about__title-txt{
         font-size: 16px;
         line-height: 18px;
+     
+    }
+
+    .about__title{
+           right: 20px;
     }
 
     .skills{
@@ -77,11 +79,16 @@
  }
     .about__img-bg {
         max-width: 700px;
+        padding: 50px 0;
     }
 
     .about__title-txt{
         font-size: 16px;
         line-height: 18px;
+    }
+
+    .about__title{
+    right: 60px;
     }
 
     .about__suptitle{
@@ -116,8 +123,19 @@
 @media (max-width:992px) {
 
     .about__img {
-        display: none;
+       max-width: 400px;
+  left: 20px;
     }
+
+    .about__title{
+      top: 100px;
+      max-width: 300px;
+      right: 30px;
+        }
+
+        .about__img-bg{
+            padding: 30px 0;
+        }
 
     .footer__top-title {
         font-size: 12px;
@@ -149,11 +167,28 @@
 
     .about__img-bg {
         max-width: 500px;
+        padding: 50px 0;
     }
 
     .about__title{
-      top: 50px;
+      top: 100px;
+      right: 40px;
+      max-width: 250px;
      }
+
+     .about__img{
+        max-width: 250px;
+        left: 20px;
+        top: 120px;
+
+     }
+
+     .about__title-txt{
+        font-size: 12px;
+        line-height: 14px;
+    }   
+
+     
 
      .footer__logo{
         display: none;
@@ -197,24 +232,33 @@
     }
 
 
-    .about__img-bg {
-        max-width: 300px;
-        padding: 50px 0;
-    }
-    .about__title-txt{
-        font-size: 12px;
-        line-height: 14px;
-    }
-
     .about__suptitle{
         font-size: 14px;
         line-height: 16px;
-      left: 200px;
+    }
+
+  
+
+       .about__img-bg {
+        max-width: 300px;
+        padding: 70px 0;
     }
 
     .about__title{
- max-width: 300px;
-       }
+      top: 50px;
+      right: 40px;
+      max-width: 350px;
+     }
+    
+     .about__img{
+       display: none;
+
+     }
+
+     .about__title-txt{
+        font-size: 12px;
+        line-height: 14px;
+    }   
 
 
 }
@@ -229,6 +273,8 @@
                 font-size: 10px;
                 line-height: 12px;
             }
+
+          
 }
 
 @media (max-width:320px) {}
