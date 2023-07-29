@@ -64,7 +64,10 @@ class Slider {
     this.findParts();
     this.prepare();
     this.listen();
+    this.updateActiveClass();
   }
+
+
 
   findParts() {
     this.list = this.node.querySelector('[data-slider-list]');
@@ -139,9 +142,13 @@ class Slider {
     this.updateActiveClass();
     this.notify();
   }
+
+  
 }
 
 const slider = new Slider(document.querySelector('.slider'));
+
+
 
 
 // portfolio
@@ -269,12 +276,10 @@ const slider3 = new Protfolio({
   el: "#carousel3",
   time: 1000,
   direction: 'X',
-  autoplay: true,
   interval: 3000
 
 })
 
 
-// WOW
 
 
