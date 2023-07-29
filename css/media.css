@@ -274,6 +274,9 @@
                 line-height: 12px;
             }
 
+            .footer__menu{
+     align-items: center;
+            }
           
 }
 
